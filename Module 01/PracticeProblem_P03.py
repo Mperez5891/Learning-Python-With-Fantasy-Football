@@ -11,6 +11,9 @@
 # the length of the list (the number of observations). Find out more 
 # information about standard deviation here.
 
+# Finally, take the square root of that number (that number is actually 
+# the variance). This is your standard deviation.
+
 #######################################################################
 # Make a list of Michael Thomas's receiving yards each week
 mtReceivingYardsList = [ 123, 89, 54, 95, 182, 89, 131, 112, 152, 114, 
