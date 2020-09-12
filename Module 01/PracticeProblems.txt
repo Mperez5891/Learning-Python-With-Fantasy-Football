@@ -1,0 +1,73 @@
+Problem 1 (Easy)
+Tyler Lockett had the following stat line for 2019.
+
+69 receptions, 82 targets, 1057 receiving yards, 8 receiving touchdowns
+
+Using Python, print Lockett's catch rate and fantasy points scored for 2019.
+
+Problem 2 (Medium)
+Visit this URL and find Michael Thomas's receiving yards for 2019. Input each weeks receiving yards in to a ordered list, and find the average of the list using Python's built in functions len and sum. Both of these functions can be found in the Python docs.
+
+Print out MT's average receiving yards for 2019 using the print function.
+
+Problem 3 (Very Hard)
+Using the list above, find the standard deviation of Michael Thomas's receiving yards. This is how you calculate the standard deviation: For each element in the list, subtract away the mean of the list, and square the difference for each of these intermediary calculations. Set these numbers to the side. Once you are finish iterating this operation, sum up all of the results, and divide by the length of the list (the number of observations). Find out more information about standard deviation here.
+
+Finally, take the square root of that number (that number is actually the variance). This is your standard deviation.
+
+Problem 4 (Medium)
+Using if statements, find whether or not Rashaad Penny is in the interquartile range for rushing yards (between 25th and 75th percentile), in the bottom 25th percentile, or in the top 75th percentile.
+
+Rashaad Penny Rushing Yards: 370 yards
+25th percentile (2019) for all RBs for Rushing Yards: 20 yards
+75th percentile (2019) for all RBs for Rushing Yards: 465 yards
+Problem 5 (Easy)
+Write a program that calculates yards per carry for 3 three top running backs. Store the player data in a list of dictionaries, where each dictionary corresponds to a separate player. Iterate over each dictionary using a for loop.
+
+Problem 6 (Very Hard)
+For each player in the program you created above, write a program that finds the player with the max rushing yards. You should still store player data in a list of dictionaries.
+
+You should leverage for and if here. I'll offer an alternative solution in the problem_6.py file as there are multiple ways to go about this problem.
+
+Problem 7 (Medium)
+rushing_tds = [10, 12, 12, 6, 7, 8, 12, 15, 17]
+Sort this list in descending order using the sorted built-in function. You can find more information about sorted here.
+
+Grab the last element of the list, and the first element of the list using list indexing.
+
+Problem 8 (Hard)
+Calculate the passer rating for a given player using the following formula:
+
+
+
+Problem 9 (Easy)
+Explore Python's built in functions. Find the max and min of this list of numbers using Python's built-in functions. Also find the difference between the min and max, known as the range. As an added bonus, try to find the min and max without using any built-in functions.
+
+list_obj = [1, 2, 3, 56, 12, 23, 34, 12, 89, 90, 345, 67, 56, 34]
+Problem 10 (Hard)
+Using a dictionary of fantasy_weights, find the fantasy points scored for Lamar Jackson with the following stats saved to the following dictionary:
+
+lamar_jackson_stats = {
+  'passing_yds': 3127,
+  'passing_tds': 36,
+  'passing_int': 6,
+  'rushing_yds': 1206,
+  'rushing_tds': 7,
+  'fumbles': 8,
+  'receiving_yds': 0,
+  'receptions': 0,
+  'receiving_td': 0
+}
+Your fantasy_weights dictionary should look like the following:
+
+fantasy_weights = {
+'passing_yds': 0.04,
+'passing_tds': 4,
+'passing_int': -2,
+'rushing_yds': 0.10,
+'rushing_tds': 6,
+'fumbles': -2,
+'receiving_yds': 0.10,
+'receptions': 1, # adjust for half PPR and standard
+'receiving_td': 6
+}
