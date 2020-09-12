@@ -31,7 +31,7 @@ lockettsFantasyPoints = catches + (yards * 0.1) + (tds * 6)
 
 # Print Lockett's catch rate and fantasy points scored 
 # for 2019
-print("Tyler Lockett's catch rate was: " 
+print(player["Name"] + "'s catch rate was: " 
       + str(lockettsCatchRate))
-print("Tyler Lockett's fantasy points was: " 
+print(player["Name"] + "'s fantasy points was: " 
       + str(lockettsFantasyPoints))
